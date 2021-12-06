@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Oscar Li -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="init()">
+    <br><div id="head"><br><br><h1>Shopping N' Stuffs<br><img style="height:50px;width:45px" src="bag.png"></h1></div>
+    <br><br><br><br><br><br><br><br><br>
+    <h2>Grocery List</h2>
+    <div id ="whole">
+      
+    <div id="acky1" class="box" >
+
+</div>
+<div id="rest" style="float:right">
+<form>
+  <label for="item">Enter Name of Item </label><br>
+  <input type="text" id="item" autocomplete="off" >
+</form>
+
+<button onclick ="addy();" >Add Item</button ><br>
+<br><br>
+<form>
+  <br>
+  <label for="rem">Enter Number of Item </label><br>
+  <input type="text" id="rem" autocomplete="off" >
+</form>
+<button onclick="remy();" >Remove Item</button>
+<br><br>
+<form>
+  <br><br>
+  <label for="move">Enter Number of Item </label><br>
+  <input type="text" id="move" autocomplete="off" >
+</form>
+<button onclick="curry();"> Submit </button>
+<br><br>
+<div id = "cur"> Current: </div>
+<button onclick="uppy();">Up</button>
+<button onclick ="downy();">Down</button>
+</div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
